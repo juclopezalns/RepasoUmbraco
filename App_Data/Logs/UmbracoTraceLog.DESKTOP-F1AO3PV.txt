@@ -349,3 +349,6 @@ System.Web.HttpParseException (0x80004005): Unexpected "{" after "@" character. 
    at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
    at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
    at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2021-06-30 13:48:53,668 [P10040/D3/T137] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: juan.lopez.newshore@gmail.com, IP Address: ::1
+ 2021-06-30 13:49:30,665 [P10040/D3/T137] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username juan.lopez.newshore@gmail.com from IP address ::1
+ 2021-06-30 13:49:30,666 [P10040/D3/T137] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: juan.lopez.newshore@gmail.com logged in from IP address ::1
